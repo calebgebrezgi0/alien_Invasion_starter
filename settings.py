@@ -23,5 +23,5 @@ class Settings:
         self.alien_file = Path(__file__).parent / 'Assets' / 'images' / 'enemy_4.png'
         self.alien_w = 40
         self.alien_h = 40
-        self.flee_speed = 5
+        self.flee_speed = 2
 
