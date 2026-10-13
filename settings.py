@@ -19,3 +19,9 @@ class Settings:
         self.bullet_w = 25
         self.bullet_h = 80
         self.bullets_allowed = 5
+
+        self.alien_file = Path(__file__).parent / 'Assets' / 'images' / 'enemy_4.png'
+        self.alien_w = 40
+        self.alien_h = 40
+        self.flee_speed = 5
+
