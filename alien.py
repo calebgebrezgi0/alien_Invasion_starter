@@ -28,7 +28,7 @@ class Alien(Sprite):
         self.x = float(self.rect.x)
 
     def update(self):
-       temp_speed = self.settings.flee_speed
+       temp_speed = self.settings.fleet_speed
 
            
        self.x += temp_speed * self.fleet.fleet_direction
